@@ -27,14 +27,14 @@ export default function App() {
 
     return () => subscriptions.remove();
 
-    // async function notifications() {
-    //   await Notifications.getAllScheduledNotificationsAsync();
+    async function notifications() {
+      await Notifications.getAllScheduledNotificationsAsync();
 
-    //   const data = await Notifications.getAllScheduledNotificationsAsync();
-    //   console.log("#######N NOTFICAÇÕES AGENDADAS#######");
-    //   console.log(data);
-    // }
-    // notifications();
+      const data = await Notifications.getAllScheduledNotificationsAsync();
+      console.log("#######N NOTFICAÇÕES AGENDADAS#######");
+      console.log(data);
+    }
+    notifications();
   }, [])
 
   if (!fontsLoaded)
