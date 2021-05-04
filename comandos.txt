@@ -1,0 +1,14 @@
+expo init plantmanager // para criar o projeto
+expo start // para abrir o projeto
+expo install @expo/vector-icons
+expo install expo-font @expo-google-fonts/inter // importar fontes
+expo install expo-app-loading // fazer o efeito de carregamento da pagina
+yarn add @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+yarn add @react-navigation/stack // pilha de navegação
+yarn add axios // biblioteca para lidar com requisições
+json-server ./src/services/server.json --host 192.168.0.102 --port 3333 --dalay 700 // carregar o json server
+expo install lottie-react-native // fazer animação
+expo install @react-native-async-storage/async-storage // para guardar dados do usuario no aplicativo 
+expo install @react-native-community/datetimepicker // timer para alarme de regar as plantas
+ yarn add date-fns// não deixar o usario programar uma data que ja passo
